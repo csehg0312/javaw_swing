@@ -1,10 +1,9 @@
 import java.io.*;
-import java.util.Scanner;
 
-class HelloWorld
+class Main
 {
-    public static void main(String args[]) {
-    int num = 10;
+    static int num = 10;
+    public static void main(String args[]) throws IOException {
     String meet = "Hello World!";
     byte en = 01;
     short only = 2;
@@ -14,11 +13,10 @@ class HelloWorld
     char firstone = 'A';
     char between = '\n';
     boolean bowl = false;
-    Object Person = null;
+    //Object Person = null;
+
     
     System.out.println(meet+between+num+between+en+between+only+between+number+between+like+between+duo+between+firstone+between+bowl);
-
-
+    //toget = System.in.read();
 }
 }
-
